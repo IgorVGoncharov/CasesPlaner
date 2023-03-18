@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class Case {
+public abstract class Case {
     private static int nextId = 1;
     private int id;
     private LocalDate dateOfCreate;
